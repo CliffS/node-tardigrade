@@ -1,0 +1,35 @@
+{
+  "name": "node-tardigrade",
+  "version": "0.0.1",
+  "description": "A simple library to access Storj Tardigrade from nodejs",
+  "main": "lib/tardigrade.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CliffS/node-tardigrade.git"
+  },
+  "keywords": [
+    "storj",
+    "tardigrade",
+    "uplink",
+    "project",
+    "bucket"
+  ],
+  "author": "Cliff Stanford <cliff@may.be>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CliffS/node-tardigrade/issues"
+  },
+  "homepage": "https://github.com/CliffS/node-tardigrade#readme",
+  "devDependencies": {
+    "coffeescript": "^2.5.1",
+    "storj-nodejs": "^0.9.1"
+  },
+  "dependencies": {
+    "ffi-napi": "^2.4.6",
+    "ref-napi": "^1.4.3",
+    "ref-struct-napi": "^1.1.0"
+  }
+}
